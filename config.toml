@@ -1,4 +1,4 @@
-baseurl                 = "alderaeney.github.io/webpage/"               # Your domain name. Must end with "/"
+baseurl                 = "https://alderaeney.github.io/"               # Your domain name. Must end with "/"
 languageCode            = "en-us"
 defaultContentLanguage  = "en"
 isMultilingual          = false
