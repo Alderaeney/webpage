@@ -3,34 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://alderaeney.github.io/about/</loc>
+    <loc>https://alderaeney.github.io/webpage/about/</loc>
     <lastmod>2019-01-29T11:13:55+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://alderaeney.github.io/posts/my-first-post/</loc>
+    <loc>https://alderaeney.github.io/webpage/posts/my-first-post/</loc>
     <lastmod>2019-01-28T23:11:44+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://alderaeney.github.io/</loc>
+    <loc>https://alderaeney.github.io/webpage/</loc>
     <lastmod>2019-01-29T11:13:55+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://alderaeney.github.io/categories/</loc>
+    <loc>https://alderaeney.github.io/webpage/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://alderaeney.github.io/posts/</loc>
+    <loc>https://alderaeney.github.io/webpage/posts/</loc>
     <lastmod>2019-01-28T23:11:44+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://alderaeney.github.io/tags/</loc>
+    <loc>https://alderaeney.github.io/webpage/tags/</loc>
     <priority>0</priority>
   </url>
   
