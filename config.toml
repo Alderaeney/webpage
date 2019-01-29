@@ -28,7 +28,7 @@ pygmentsCodefences      = true
     primaryImage        = "tn.png"                     # Image that shows on Twitter cards and OpenGraph links
 
 [[params.mainMenu]]
-    link = "/webpage/posts"
+    link = "posts/"
     text = "posts"
 
 #[[params.mainMenu]]
@@ -36,5 +36,5 @@ pygmentsCodefences      = true
 #    text = "gallery"
 
 [[params.mainMenu]]
-    link = "/webpage/about"
+    link = "about/"
     text = "about"
