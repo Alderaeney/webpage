@@ -1,30 +1,39 @@
-baseURL = "alderaeney.tk"
-languageCode = "en-us"
-title = "Alderaeney's webpage"
-paginate = 5
-publishDir = "docs"
+baseurl                 = "alderaeney.github.io/webpage/"               # Your domain name. Must end with "/"
+languageCode            = "en-us"
+defaultContentLanguage  = "en"
+isMultilingual          = false
+title                   = "Alderaeney's webpage"
+theme                   = "sam"
+pygmentsStyle           = "monokai"                     # https://help.farbox.com/pygments.html
+pygmentsCodefences      = true
+# googleAnalytics         = ""             # Tracking code, eg. "UA-111111111-1"
 
 [params]
-contentType = "posts"
-themeColor = "orange"
+    dateform            = "Mon Jan 02, 2006"
+    dateformfull        = "Mon Jan 2 2006 15:04:05 EST"
+    favicon             = "sam.ico"
+    homepage            = "home"                        # What to call the home page link
+    galleryFolder       = "images/"                     # Where you've put your images, after "/content/gallery/"
+    clickablePhotos     = false                          # Allow links to the full size images
+    smallPreviewImages   = true                         # Show small images from the subfolder instead of the big versions in the gallery
+                                                         # Note: This will only become active if clickablePhotos is also true.
+    smallImagesSubfolder = "small/"                      # The subfolder for the small versions of the images under the gallery (with trailing slash)
+                                                         # For each image the small version has to have the same filename as the big version.
+    footerText          = "Alderaeney's webpage"
 
-[languages]
-	[languages.en]
-		title = "Alderaeney's webpage"
-		subtitle = "A simple website to post some useful tutorials about linux"
-		readMore = "Read more"
-		readOtherPosts = "Read other posts"
+# Metadata
+    description         = "Webpage dedicated to Linux and Linux related stuff, HOWTOs and something more."            # Max 160 characters show in search results
+    twitterCard         = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”
+    primaryImage        = "tn.png"                     # Image that shows on Twitter cards and OpenGraph links
 
-	[languages.en.params.logo]
-		logoText = "Alderaeney"
-		logoHomeLink = "/"
+[[params.mainMenu]]
+    link = "/posts"
+    text = "posts"
 
-	[languages.en.menu]
-      		[[languages.en.menu.main]]
-        		identifier = "about"
-        		name = "About"
-        		url = "/about"
-      		[[languages.en.menu.main]]
-        		identifier = "showcase"
-        		name = "Showcase"
-        		url = "/showcase"
+#[[params.mainMenu]]
+#    link = "/gallery"
+#    text = "gallery"
+
+[[params.mainMenu]]
+    link = "/about"
+    text = "about"
