@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Alderaeney&#39;s webpage</title>
+    <link>alderaeney.tk/posts/</link>
+    <description>Recent content in Posts on Alderaeney&#39;s webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Jan 2019 23:11:44 +0100</lastBuildDate>
+    
+	<atom:link href="alderaeney.tk/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>alderaeney.tk/posts/my-first-post/</link>
+      <pubDate>Mon, 28 Jan 2019 23:11:44 +0100</pubDate>
+      
+      <guid>alderaeney.tk/posts/my-first-post/</guid>
+      <description>$ echo &amp;ldquo;Hello World&amp;rdquo;_ First post, merely to test how to use hugo and deploy a website.
+This is built using hugo framework making static websites, the aim is to make a fast site where putting some tutorials and howtos about linux and linux related.</description>
+    </item>
+    
+  </channel>
+</rss>
