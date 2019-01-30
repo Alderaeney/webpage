@@ -6,10 +6,26 @@
     <description>Recent content in Posts on Alderaeney&#39;s webpage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Jan 2019 23:11:44 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 30 Jan 2019 08:20:42 +0100</lastBuildDate>
     
 	<atom:link href="https://alderaeney.github.io/webpage/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Green video thumbnails on nautilus</title>
+      <link>https://alderaeney.github.io/webpage/posts/config-ffmpeg-thumbs/</link>
+      <pubDate>Wed, 30 Jan 2019 08:20:42 +0100</pubDate>
+      
+      <guid>https://alderaeney.github.io/webpage/posts/config-ffmpeg-thumbs/</guid>
+      <description>How to fix green thumbnails on .mkv videos  First install ffmpeg and ffmpegthumbnailer  On Ubuntu:
+ Enable universe and multiverse repos on software app.
+ Update: sudo apt update
+ Install restricted extras: sudo apt-get install ubuntu-restricted-extras
+ Finally install ffmpeg and ffmpegthumbnailer: sudo apt install ffmpeg ffmpegthumbnailer
+  On Debian: sudo apt install ffmpeg ffmpegthumbnailer
+On Arch and derivatives: sudo pacman -S ffmpeg ffmpegthumbnailer
+ Second remove thumbnail folder: rm -r ~/.</description>
+    </item>
     
     <item>
       <title>Hello World</title>

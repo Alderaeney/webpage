@@ -35,44 +35,92 @@
     
     <title>
         
-        Posts
+        Green video thumbnails on nautilus
         
     </title>
 </head>
 
 <body>
     <div class="wrap">
-        <div class="section" id="title">Posts</div>
+        <div class="section" id="title">Green video thumbnails on nautilus</div>
 
         
 <div class="section" id="content">
+    Wed Jan 30, 2019 &#183; 144 words
     
-    <ul>
-        
-        <li>
-            
-            <a href="https://alderaeney.github.io/webpage/posts/config-ffmpeg-thumbs/">
-                Green video thumbnails on nautilus
-            </a>
-        </li>
-        
-        <li>
-            
-            <a href="https://alderaeney.github.io/webpage/posts/my-first-post/">
-                Hello World
-            </a>
-        </li>
-        
-    </ul>
+    <hr/>
+    
+
+<h1 id="how-to-fix-green-thumbnails-on-mkv-videos">How to fix green thumbnails on .mkv videos</h1>
+
+<p><img src="/webpage/img/green-thumbs.png" alt="Screenshot of a folder with green video thumbnails" /></p>
+
+<ul>
+<li>First install ffmpeg and ffmpegthumbnailer</li>
+</ul>
+
+<p>On Ubuntu:</p>
+
+<ol>
+<li><p>Enable universe and multiverse repos on software app.</p></li>
+
+<li><p>Update:
+<code>sudo apt update</code></p></li>
+
+<li><p>Install restricted extras:
+<code>sudo apt-get install ubuntu-restricted-extras</code></p></li>
+
+<li><p>Finally install ffmpeg and ffmpegthumbnailer:
+<code>sudo apt install ffmpeg ffmpegthumbnailer</code></p></li>
+</ol>
+
+<p>On Debian:
+<code>sudo apt install ffmpeg ffmpegthumbnailer</code></p>
+
+<p>On Arch and derivatives:
+<code>sudo pacman -S ffmpeg ffmpegthumbnailer</code></p>
+
+<ul>
+<li><p>Second remove thumbnail folder:
+<code>rm -r ~/.cache/thumbnails</code></p></li>
+
+<li><p>Third edit totem.thumbnailer file:
+<code>sudo nano /usr/share/thumbnailers/totem.thumbnailer</code></p></li>
+</ul>
+
+<p>Change the value on <code>TryExec</code> with <code>ffmpegthumbnailer</code>.</p>
+
+<p>Change the value on <code>Exec</code> with <code>ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10</code></p>
+
+<p>Finally, the edited lines should look like this:</p>
+
+<pre><code>TryExec=ffmpegthumbnailer
+Exec=ffmpegthumbnailer -s %s -i %i -o %o -c png -f -t 10
+</code></pre>
+
+<ul>
+<li>Finally restart nautilus:
+<code>nautilus -q</code></li>
+</ul>
+
+<p>If the changes don&rsquo;t apply for all files should be useful removing again the thumbnail folder.
+<code>rm -r ~/.cache/thumbnails</code></p>
+
 </div>
 
 
         
-        <div class="section bottom-menu">
+<div class="section bottom-menu">
+    
 <hr />
 <p>
 
 
+    
+        <a href="/webpage/posts">back</a>
+        
+            &#183;
+        
     
 
     
@@ -95,8 +143,9 @@
         home
     </a>
 
-</p></div>
-        
+</p>
+</div>
+
 
         <div class="section footer">Alderaeney&rsquo;s webpage</div>
     </div>

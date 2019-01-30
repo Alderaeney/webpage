@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://alderaeney.github.io/webpage/posts/config-ffmpeg-thumbs/</loc>
+    <lastmod>2019-01-30T08:20:42+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://alderaeney.github.io/webpage/about/</loc>
     <lastmod>2019-01-29T11:13:55+01:00</lastmod>
   </url>
@@ -14,7 +19,7 @@
   
   <url>
     <loc>https://alderaeney.github.io/webpage/</loc>
-    <lastmod>2019-01-29T11:13:55+01:00</lastmod>
+    <lastmod>2019-01-30T08:20:42+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -25,7 +30,7 @@
   
   <url>
     <loc>https://alderaeney.github.io/webpage/posts/</loc>
-    <lastmod>2019-01-28T23:11:44+01:00</lastmod>
+    <lastmod>2019-01-30T08:20:42+01:00</lastmod>
     <priority>0</priority>
   </url>
   
